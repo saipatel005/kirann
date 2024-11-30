@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.transparenttextures.com/patterns/blueprint.png'), #0d0d0d;
+    color: yellow;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2em 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #f22424;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oleo-script-bold {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+}
+h3
+{
+	color: green;
+	text-align: center;
+}	
+
+header p {
+    font-size: 1.2em;
+    color: #cccccc;
+  font-family:cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333333;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+    color: #00ffcc;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #00ffcc;
+    color: #0d0d0d;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    margin: 1em auto;
+    background: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.8);
+}
+
+section h2 {
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+
+/* Email Highlight */
+.email {
+    color: #ffcc00; /* Bright yellow for visibility */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: #00ffcc; /* Transition back to theme color on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333333;
+    color: #00ffcc;
+}
+button {
+	color: red
+}	
+
+footer p {
+    margin: 0;
+}
